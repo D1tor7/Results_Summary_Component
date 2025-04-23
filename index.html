@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -15,29 +16,50 @@
   </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+  <main>
+    <div class="container">
+    <section class="Result">
+      <h1 >Your Result</h1>
+      <section class="Score">
+        <data>76</data>
+        <p>of 100</p>
+      </section>
+      <p class="Great">Great</p>
+      <p class="Great-info">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="Summary">
+      <h1>Summary</h1>
+    
+      <div class="summary-item">
+        <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
+        <h2 class="reaction">Reaction</h2>
+        <p><data class="nota">80</data>/100</p>
+      </div>
+    
+      <div class="summary-item">
+        <img src="./assets/images/icon-memory.svg" alt="memory icon">
+        <h2 class="memory">Memory</h2>
+        <p><data vaa class="nota">92</data>/100</p>
+      </div>
+    
+      <div class="summary-item">
+        <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+        <h2 class="verbal">Verbal</h2>
+        <p><data vaa class="nota">61</data>/100</p>
+      </div>
+    
+      <div class="summary-item">
+        <img src="./assets/images/icon-visual.svg" alt="visual icon">
+        <h2 class="visual">Visual</h2>
+        <p><data vaa class="nota">72</data>/100</p>
+      </div>
+      <button class="continue">Continue</button>
+    </section>
+    
+  </div>
+    
+  </main>
+  <footer></footer>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
